@@ -1,4 +1,5 @@
 import './app.scss'
+import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 
 
@@ -6,6 +7,7 @@ const App = () => {
   return <div>
     <section>
       <Navbar />
+      <Hero />
     </section>
     <section style={{ textAlign: 'center' }} id='Homepage'>Homepage</section>
     <section style={{ textAlign: 'center' }} id='Services'>Services</section>
